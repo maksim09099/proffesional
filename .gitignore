@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models artifacts
+data/raw/*.zip
+data/raw/extracted/
+data/interim/*
+data/processed/*
+!data/processed/.gitkeep
+models/*.pt
+models/*.pth
+models/*.json
+reports/*.csv
+reports/*.json
+reports/*.png
+reports/*.log
+
+# OS
+.DS_Store
+Thumbs.db
